@@ -1,0 +1,371 @@
+/*
+ 2014/03/13 コメントアウト
+@font-face
+{
+font-family: mplus-1p-regular;
+src: url('http://mplus-fonts.sourceforge.jp/webfonts/mplus-1p-regular.ttf')
+     format("truetype");
+}
+*/
+
+a {
+    color: #358cce;
+	text-decoration: none;
+}
+
+pre {
+  border: 1px solid #f0f0f0;
+  font-family: "Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  padding: 10px;
+  overflow:auto;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #f5f2f0;
+  color: #393939;
+  margin: 20px 0;
+	line-height: 1.4em;
+	margin-bottom: 1.6em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+blockquote {
+    color: #999;
+border: 4px solid #999;
+border-width: 0px 0px 0px 4px;
+padding-left: 40px;
+margin: 0 0 1em;
+}
+
+.synType {
+color: #268bd2;
+}
+
+.synIdentifier {
+color: #00A3FF;
+}
+
+.synStatement {
+color: #D80C0C;
+}
+
+.synConstant {
+color: #1FB12B;
+}
+
+
+
+
+
+
+
+body {
+	background: #f0f0f0;
+  /*
+   2014/03/13 コメントアウト
+	font-family: mplus-1p-regular, "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
+  */
+	font-family: "Lucida Grande", "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0;
+	margin: 0 auto;
+	max-width: 1100px;
+	font-size: 14px;
+}
+
+#container {
+	overflow: hidden;
+	background: #474747;
+}
+
+/*
+	header
+*/
+#blog-title {
+	
+}
+
+#top-box {
+	display: none;
+}
+
+#title {
+	padding: 4% 7%;
+	margin: 0;
+	background: #f0f0f0;
+	text-align: center;
+	font-size: 3.5em;
+}
+
+#title a {
+	color: #474747;
+}
+
+/*
+	wrapper
+*/
+#wrapper {
+	float: left;
+	width: 70%;
+	background: #fff;
+	position: relative;
+	height: 100%;
+	word-wrap: break-word;
+	padding-bottom: 32768px;
+  margin-bottom: -32768px;
+}
+
+#main {
+}
+
+#wrapper {
+}
+
+#wrapper .date a {
+	color: #b7b7b7;
+}
+
+#wrapper .categories a {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	position: relative;
+	color: #a49d9d;
+	display: block;
+	background: #ececec;
+	padding: 0.1em 0.5em;
+	-webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.1);
+	box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.1);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#wrapper .page-archive-section {
+	overflow: hidden;
+	padding: 4% 7% 0% 7%;
+}
+
+#wrapper .page-archive-section ul {
+	overflow: hidden;
+	padding: 0;
+}
+
+#wrapper .page-archive-section li {
+	display: block;
+	overflow: hidden;
+}
+
+#wrapper a.keyword:hover {
+	border-bottom: 1px dashed #358cce;
+}
+
+#wrapper h1.entry-title a {
+	color: #333;
+}
+
+#wrapper .entry-inner {
+	
+}
+
+#wrapper .entry-inner .entry-header,
+#wrapper .entry-inner .entry-footer,
+.pager {
+	padding: 4% 7%;
+}
+
+#wrapper .entry-inner .entry-content {
+	padding: 0% 7%;
+}
+
+#wrapper .entry-inner .entry-header,
+#wrapper .entry-inner .entry-content {
+	background: #fff;
+}
+
+#wrapper .entry-inner .entry-content p {
+	margin-top: 0;
+}
+
+#wrapper .entry-inner .entry-content code {
+	font-size: 0.9em;
+	padding: 2px 5px;
+	background: #f5f2f0;
+	border: none;
+}
+
+#wrapper .entry-inner .entry-content img.hatena-fotolife {
+	max-width: 100%;
+}
+
+#wrapper .entry-inner .entry-footer {
+	background: #dfdfdf;
+}
+
+div.permalink.pager {
+
+}
+
+/*
+	footer
+*/
+.entry-footer-section {
+	display: none;
+}
+
+#footer {
+	text-align: center;
+	padding: 2% 0 3% 0;
+}
+
+#footer-inner > address,
+#footer-inner > p {
+	display: inline;
+}
+
+#footer-inner > p {
+	margin: 0;
+	display: inline;
+	margin-left: 1%;
+}
+
+.comment-box {
+
+}
+
+.comment-box ul {
+	padding: 0;	
+	list-style: none;
+}
+
+.comment-box ul li {
+	
+}
+
+.comment-box ul li p.comment-user-name {
+	height: 33px;
+	margin-bottom: 20px;
+	background: #fff;
+	-webkit-border-radius: 44px;
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius: 44px;
+	-moz-border-radius-topright: 6px;
+	-moz-border-radius-bottomright: 6px;
+	border-radius: 44px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	vertical-align: top;
+	text-indent: 55px;
+	padding-top: 11px;
+}
+
+.comment-box ul li p.comment-user-name img {
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 44px;
+	height: 44px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+.comment-box ul li p.comment-user-name a {
+}
+.comment-box ul li p.comment-user-name a span {
+}
+
+.comment-box ul li p.comment-metadata {
+	font-size: 0.9em;
+	color: #b7b7b7;
+}
+
+
+/*
+	aside
+*/
+
+aside {
+	color: #fff;	
+}
+
+aside a {
+	color: #fff;
+}
+
+#box2 {
+	float: right;
+	width: 30%;	
+}
+
+#box2-inner {
+	padding-bottom: 13%;
+}
+
+.hatena-module {
+	padding: 0% 13%;	
+}
+
+.hatena-module-profile {
+	background: #373737;
+	padding: 15% 13% 13% 13%;
+	margin-bottom: 13%;
+}
+
+.hatena-module-profile .profile-icon {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.hatena-urllist .archive-module-year .archive-module-month {
+	list-style-type: inherit !important;
+}
+
+.hatena-module-profile .hatena-module-title {
+	display: none;
+}
+.hatena-module-profile .hatena-module-body span.id {
+	position: relative;
+	overflow: hidden;
+	margin-left: 6%;
+}
+.hatena-module-profile .hatena-module-body span.id a {
+	position: absolute;
+}
+
+.hatena-module-recent-entries ul li a,
+.hatena-module-recent-comments ul li a {
+	font-size: 0.8em;
+}
+
+.hatena-module-search-box .search-module-input {
+	border: none;
+	height: 30px;
+	border-radius: 2px;
+	text-indent: 5%;
+	width: 70%;
+}
+
+.hatena-module-search-box .search-module-button {
+	border: none;
+	height: 32px;
+	border-radius: 3px;
+	vertical-align: top;
+	width: 25%;
+}
+.hatena-module-search-box .search-module-input ::-webkit-input-placeholder,
+.hatena-module-search-box .search-module-input :-moz-placeholder,
+.hatena-module-search-box .search-module-input ::-moz-placeholder,
+.hatena-module-search-box .search-module-input :-ms-input-placeholder {
+    color: #999;
+}
