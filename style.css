@@ -214,8 +214,11 @@ margin-top: 10px;
 	background: #EEF0F4;
 }
 
-div.permalink.pager {
+.hatena-star-container {
+	display:none;
+}
 
+div.permalink.pager {
 }
 
 /*
