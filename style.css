@@ -185,7 +185,7 @@ margin-top: 10px;
 }
 
 #wrapper .entry-inner .entry-footer {
-	padding: 4% 7% 2%;
+	padding: 0% 0% 2%;
 }
 
 .pager {
@@ -222,6 +222,22 @@ margin-top: 10px;
 
 div.permalink.pager {
 	background: #EEF0F4;
+}
+
+.hatena-star-container,
+.social-buttons,
+.google-afc-image,
+.customized-footer {
+	padding: 0 7%;
+}
+
+.hatena-star-container,
+.social-buttons {
+	background:  #fff;
+}
+
+.hatena-star-container {
+	padding : 1% 7%;
 }
 
 /*
