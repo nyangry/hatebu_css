@@ -85,7 +85,6 @@ margin-top: 10px;
 
 #container {
 	overflow: hidden;
-	background: #474747;
 	margin-top: 10px;
 }
 
@@ -374,4 +373,9 @@ aside a {
 .hatena-module-search-box .search-module-input ::-moz-placeholder,
 .hatena-module-search-box .search-module-input :-ms-input-placeholder {
     color: #999;
+}
+
+.services {
+	color: #E9EAF7;
+}
 }
