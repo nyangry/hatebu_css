@@ -218,6 +218,13 @@ div.permalink.pager {
 	background: #EEF0F4;
 }
 
+.hatena-star-container {
+	display: none;
+}
+.customized-footer .entry-footer-html .hatena-star-container {
+	display: block;
+}
+
 /*
 	footer
 */
@@ -378,4 +385,15 @@ aside a {
 .services {
 	color: #E9EAF7;
 }
+
+.fb_iframe_widget {
+display: inline-block;
+position: relative;
+}
+
+.pocket-btn {
+display: inline-block;
+vertical-align: top;
+}
+
 }
