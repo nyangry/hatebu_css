@@ -180,10 +180,16 @@ margin-top: 10px;
 	
 }
 
-#wrapper .entry-inner .entry-header,
-#wrapper .entry-inner .entry-footer,
-.pager {
+#wrapper .entry-inner .entry-header {
 	padding: 4% 7%;
+}
+
+#wrapper .entry-inner .entry-footer {
+	padding: 4% 7% 2%;
+}
+
+.pager {
+	padding: 0% 7% 4%;
 }
 
 #wrapper .entry-inner .entry-content {
@@ -216,13 +222,6 @@ margin-top: 10px;
 
 div.permalink.pager {
 	background: #EEF0F4;
-}
-
-.hatena-star-container {
-	display: none;
-}
-.customized-footer .entry-footer-html .hatena-star-container {
-	display: block;
 }
 
 /*
