@@ -237,6 +237,7 @@ div.permalink.pager {
 }
 
 .hatena-star-container {
+	margin: 0;
 	padding : 1% 7%;
 }
 
