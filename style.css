@@ -220,6 +220,10 @@ margin-top: 10px;
 	background: #EEF0F4;
 }
 
+.page-archive .archive-entry {
+	padding: 4% 7%;
+}
+
 div.permalink.pager {
 	background: #EEF0F4;
 }
